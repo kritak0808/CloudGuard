@@ -1,0 +1,23 @@
+{
+  "name": "cloudguard-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "The Autonomous Cloud Security Operating System",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "pnpm -r exec rm -rf .turbo node_modules .next dist build"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
+    "jsdom": "^29.1.1",
+    "turbo": "^2.0.4",
+    "typescript": "~6.0.2",
+    "vitest": "^4.1.10"
+  },
+  "packageManager": "pnpm@9.5.0"
+}
